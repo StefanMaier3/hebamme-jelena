@@ -1,0 +1,44 @@
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 4rem;
+  font-family: 'Times New Roman', serif;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.container {
+  padding-top: 8rem; /* Space for fixed header plus consistent spacing */
+}
+
+.contact-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding-top: 6rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-top: 5rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+  }
+} 
